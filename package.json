@@ -1,0 +1,37 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "lint": "eslint . --fix",
+    "format": "prettier . --write"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^14.0.0",
+    "@react-native-async-storage/async-storage": "1.21.0",
+    "axios": "^1.6.7",
+    "expo": "~50.0.11",
+    "expo-font": "~11.10.3",
+    "expo-image": "~1.10.6",
+    "expo-status-bar": "~1.11.1",
+    "fuse.js": "^7.0.0",
+    "immer": "10.0.3",
+    "react": "18.2.0",
+    "react-native": "0.73.4",
+    "react-native-paper": "4.9.2",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/eslint-plugin": "^7.23.5",
+    "@shopify/eslint-plugin": "^44.0.0",
+    "@types/react": "18.2.0",
+    "eslint": "^8.57.0",
+    "eslint-config-universe": "^12.0.0",
+    "eslint-plugin-unused-imports": "^3.1.0",
+    "prettier": "^3.2.5"
+  },
+  "private": true
+}
